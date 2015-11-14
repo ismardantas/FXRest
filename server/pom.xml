@@ -5,6 +5,7 @@
     <groupId>me.localtest</groupId>
     <artifactId>customersapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>customersapp</name>
     <packaging>war</packaging>
 
     <properties>
@@ -53,6 +54,7 @@
         </dependency>
     </dependencies>
     <build>
+        <finalName>customersapp</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
