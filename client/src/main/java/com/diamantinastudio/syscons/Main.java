@@ -18,7 +18,7 @@ public class Main extends Application {
             Parent root = FXMLLoader.load(getClass().getResource("/fxml/Main.fxml"));
             Scene scene = new Scene(root);
             
-            stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/ico.png")));
+            //stage.getIcons().add(new Image(Main.class.getResourceAsStream("/img/ico.png")));
             stage.setTitle("Cadastro de clientes");
             stage.sizeToScene();
             stage.setResizable(false);

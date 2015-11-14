@@ -29,7 +29,7 @@ public class StageUtil {
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.setTitle("Nuevo cliente");
-            stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/ico.png")));
+            stage.getIcons().add(new Image(Main.class.getResourceAsStream("/img/ico.png")));
             stage.initModality(MODALITY);
             stage.setResizable(false);
             stage.sizeToScene();

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.geometry.*?>
@@ -8,8 +9,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="443.0" prefWidth="908.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/8"
-   xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.localtest.customersapp.controllers.MainController">
+<AnchorPane prefHeight="443.0" prefWidth="908.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.localtest.customersapp.controllers.MainController">
    <children>
       <BorderPane prefHeight="443.0" prefWidth="912.0" styleClass="body">
           <top>
@@ -17,10 +17,10 @@
                <children>
                   <ImageView fitHeight="102.0" fitWidth="113.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/user-icon.png" />
+                        <Image url="@../img/user-icon.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="250.0" layoutY="25.0" styleClass="title-text" text="ADMINISTRACIÓN DE CLIENTES" />
+                  <Label layoutX="368.0" layoutY="23.0" styleClass="title-text" text="SYS-CONSULTAS" />
                </children>
             </Pane>
          </top>
