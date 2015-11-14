@@ -6,7 +6,7 @@ import me.localtest.customersapp.controllers.CustomerPhonesController;
 import me.localtest.customersapp.controllers.EditCustomerController;
 import me.localtest.customersapp.controllers.MainController;
 import me.localtest.customersapp.controllers.NewCustomerController;
-import me.localtest.customersapp.views.Main;
+import com.diamantinastudio.syscons.Main;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
